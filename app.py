@@ -24,25 +24,6 @@ hide_st_style = """
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
-
-# def set_bg_hack(main_bg):
-#     main_bg_ext = "png"
-#
-#     st.markdown(
-#         f"""
-#          <style>
-#          .stApp {{
-#              background: url(data:image/{main_bg_ext};base64,{base64.b64encode(open(main_bg, "rb").read()).decode()});
-#              background-size: cover
-#          }}
-#          </style>
-#          """,
-#         unsafe_allow_html=True
-#     )
-
-
-# set_bg_hack('background.png')
-#
 movies = pickle.load(open(r'C:\Users\y_gar\PycharmProjects\movies-recommendation-system\venv\movies.pkl', 'rb'))
 movies_list = pd.Series(movies.title.values)
 similarity = pickle.load(open(r'C:\Users\y_gar\PycharmProjects\movies-recommendation-system\venv\similarity.pkl', 'rb'))
