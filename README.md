@@ -10,3 +10,4 @@ The posters of the similar movies are fetched using an API by TMDB.
 
 ### Demo
 
+[movie_recomm.webm](https://user-images.githubusercontent.com/80087561/181699003-0e62586f-5ab7-4120-ac06-9f0f64a3bcb6.webm)
